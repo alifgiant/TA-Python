@@ -4,27 +4,27 @@ def avg(arr):
 	return sum(arr)/len(arr)
 
 def output(list_arr):
-	getMS = lambda x: (x/1000000)-5 if (x/1000000)-5 > 0 else 0
-	# getMS = lambda x: (x/1000000)
-	return [getMS(x[1]) for x in list_arr[2:100]]
-	# return [getMS(x[1]) for x in list_arr[2:]]
+	# getMS = lambda x: (x/1000000)-5 if (x/1000000)-5 > 0 else 0
+	getMS = lambda x: x/1000
+	# return [getMS(x[1]) for x in list_arr[2:100]]
+	return [getMS(x) for x in list_arr[1:]]
 
 def main():
-	delay1 = json.load(open('delay1.json'))	
-	delay2 = json.load(open('delay2.json'))
-	delay3 = json.load(open('delay3.json'))
+	delay1 = json.load(open('out1.json'))	
+	delay2 = json.load(open('out2.json'))
+	delay3 = json.load(open('out3.json'))
 
 	delay1 = output(delay1)	
 	delay2 = output(delay2)
 	delay3 = output(delay3)
 
-	# avg_delay1 = avg(delay1)
-	# avg_delay2 = avg(delay2)
-	# avg_delay3 = avg(delay3)
+	avg_delay1 = avg(delay1)
+	avg_delay2 = avg(delay2)
+	avg_delay3 = avg(delay3)
 
-	# print('avg', avg_delay1, avg_delay2, avg_delay3)
+	print('avg', avg_delay1, avg_delay2, avg_delay3)
 
-	# print('total avg', avg([avg_delay1, avg_delay2, avg_delay3]))
+	print('total avg', avg([avg_delay1, avg_delay2, avg_delay3]))
 
 	# print(delay1)
 	import matplotlib.pyplot as plt
