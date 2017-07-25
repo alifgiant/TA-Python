@@ -1,0 +1,3 @@
+[submodule "TA-Data"]
+	path = TA-Data
+	url = https://github.com/alifgiant/TA-Data.git
