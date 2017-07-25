@@ -1,0 +1,4 @@
+100
+--- 15.590426921844482 seconds ---
+finished: TA-Data/MIT_BIH/100 | length: 650000 real: 2273 detected: 2248
+acc: 99.99615384615385 % sp: 100.0 pre: 98.9001319841619

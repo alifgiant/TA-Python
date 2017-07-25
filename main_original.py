@@ -1,41 +1,42 @@
-from filter import Filter
-# from detector import BeatDetector
-from pantom_detector import Detector
+import time
 import json
 import CsvLoader
+import sample
+from algo.filter import Filter
 
-# # all samples
-# numbers = [100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 111, 112, 113, 114, 115, 116, 117, 118, 119, 121, 122,
-#            123, 124, 200, 201, 202, 203, 205, 207, 208, 209, 210, 212, 213, 214, 215, 217, 219, 220, 221, 222, 223,
-#            228, 230, 231, 232, 233, 234]
-
-# # good samples
-# numbers = [100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 111, 114, 115, 117, 118, 119, 121, 122, 123, 124, 200, 201,
-#            202, 205, 208, 209, 210, 212, 213, 214, 215, 217, 219, 220, 221, 222, 223, 230, 231, 233, 234]
-
-# # special handling samples
-# numbers = [112, 113, 116, 203, 207, 228, 232]
-
-# Test sample
-numbers = [100]
+from algo.pantom_detector import Detector  # original
+from algo.helper import ConfusionMatrix
 
 if __name__ == '__main__':
-    for number in numbers:
-        number = 'MIT_BIH/' + str(number)
+    source = sample.MitBih
+    base = sample.MitBih.base
 
-        beat = json.load(open(number + '/beat.json'))
-        # beat = json.load(open(number + '/beat.json'))[:2935]  # 8 second
-        # beat = json.load(open(number + '/beat.json'))[:7000]
-        # beat = json.load(open(number + '/beat.json'))[10000:20000]
+    '''..........................Select Source.................................'''
+    records = source.get_all_record()  # all records
+    records = source.get_one_record(num=100)      # record number 100
+    # records = source.get_record_series_100()      # 100s records
+    # records = source.get_record_series_200()      # 200s records
+    '''........................................................................'''
+
+    '''..........................Select Start Stop.................................'''
+    start, stop = 0, None  # All Record
+    # start, stop = 0, 2935       # First 8 second
+    # start, stop = 10000, 20000  # Custom
+    # start, stop = -2935, None   # Last 8 second
+    '''..........................Select Start Stop.................................'''
+
+    for record in records:
+        str_record = str(record)
+        print(str_record)
+
+        record_address = base + '/' + str_record
+
+        beat = json.load(open(record_address + '/beat_loc.json'))[start:stop]
 
         # raw = CsvLoader.load_dummy(1)        
-        raw = CsvLoader.load(number + '/record.csv')
-        # raw = CsvLoader.load(number + '/record.csv')[:2935]  # 8 second
-        # raw = CsvLoader.load(number + '/record.csv')[:7000]
-        # raw = CsvLoader.load(number + '/record.csv')[10000:20000]
+        raw = CsvLoader.load(record_address + '/record.csv')[start:stop]
 
-        import time
-        start_time = time.time()        
+        start_time = time.time()
 
         # filtering
         low_high_filter = Filter('coef/coef-filter.json')
@@ -81,7 +82,7 @@ if __name__ == '__main__':
         thrs += [0] * len(detector.search_back_sample)        
 
         stop_time = time.time()
-        print("--- %s seconds ---" % (stop_time - start_time), (stop_time - start_time) / 650002)
+        print("Duration: %s seconds " % (stop_time - start_time))
 
         # execute what left in buffer
         # res = detector.execute_buffer()      
@@ -101,7 +102,9 @@ if __name__ == '__main__':
         # print('accuracy', 100 * (detect / real), '%', file=output)
         # print('missed', 100 * (abs(detect-real) / real), '%', file=output)
         # print('finished:', number, '|', 'accuracy:', 100 * (detect / real), '%')
-        print('finished:', number, '|', 'real:', real, 'detected:', detect, 'accuracy:', 100 * (detect / real), '%')
+        mat = ConfusionMatrix(len(beat), detect, real)
+        print('finished:', record_address, '|', 'length:', len(beat), 'real:', real, 'detected:', detect)
+        print('acc:', mat.get_accuracy(), '%', 'sp:', mat.get_specificity(), 'pre:', mat.get_recall())
         # output.close()
 
         # import matplotlib.pyplot as plt

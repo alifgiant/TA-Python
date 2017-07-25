@@ -2,523 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f79e25ca-3781-4ba1-aace-5f1cb933f75d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TA-Data" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitmodules" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/TA-Python.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/100/100.atr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/100/100.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/100/100.hea" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/100/annotations.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/100/beat.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/100/beat2.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/100/beat_class/detect_processed.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/100/beat_class/raw.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/100/record.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/100/result.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/101/101.atr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/101/101.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/101/101.hea" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/101/annotations.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/101/beat.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/101/beat2.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/101/beat_class/detect_processed.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/101/beat_class/raw.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/101/record.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/101/result.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/102/102.atr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/102/102.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/102/102.hea" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/102/annotations.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/102/beat.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/102/beat2.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/102/beat_class/detect_processed.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/102/beat_class/raw.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/102/record.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/102/result.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/103/103.atr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/103/103.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/103/103.hea" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/103/annotations.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/103/beat.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/103/beat2.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/103/beat_class/detect_processed.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/103/beat_class/raw.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/103/record.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/103/result.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/103/samples.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/104/104.atr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/104/104.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/104/104.hea" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/104/annotations.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/104/beat.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/104/beat2.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/104/beat_class/detect_processed.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/104/beat_class/raw.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/104/record.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/104/result.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/104/samples.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/105/105.atr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/105/105.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/105/105.hea" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/105/annotations.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/105/beat.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/105/beat2.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/105/beat_class/detect_processed.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/105/beat_class/raw.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/105/record.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/105/result.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/105/samples.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/106/106-MLII.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/106/106-V1.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/106/106.atr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/106/106.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/106/106.hea" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/106/annotations.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/106/beat.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/106/beat2.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/106/beat_class/detect_processed.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/106/beat_class/raw.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/106/data.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/106/record.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/106/result.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/107/107.atr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/107/107.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/107/107.hea" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/107/annotations.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/107/beat.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/107/beat2.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/107/beat_class/detect_processed.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/107/beat_class/raw.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/107/record.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/107/result.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/107/samples.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/108/108.atr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/108/108.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/108/108.hea" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/108/annotations.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/108/beat.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/108/beat2.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/108/beat_class/detect_processed.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/108/beat_class/raw.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/108/record.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/108/result.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/108/samples.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/109/109.atr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/109/109.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/109/109.hea" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/109/annotations.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/109/beat.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/109/beat2.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/109/beat_class/detect_processed.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/109/beat_class/raw.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/109/record.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/109/result.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/109/samples.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/111/111.atr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/111/111.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/111/111.hea" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/111/annotations.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/111/beat.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/111/beat2.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/111/beat_class/detect_processed.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/111/beat_class/raw.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/111/record.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/111/result.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/111/samples.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/112/112.atr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/112/112.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/112/112.hea" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/112/annotations.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/112/beat.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/112/beat2.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/112/beat_class/detect_processed.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/112/beat_class/raw.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/112/record.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/112/result.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/112/samples.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/113/113.atr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/113/113.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/113/113.hea" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/113/annotations.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/113/beat.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/113/beat2.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/113/beat_class/detect_processed.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/113/beat_class/raw.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/113/record.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/113/result.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/113/samples.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/114/114.atr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/114/114.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/114/114.hea" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/114/annotations.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/114/beat.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/114/beat2.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/114/beat_class/detect_processed.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/114/beat_class/raw.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/114/record.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/114/result.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/114/samples.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/115/115.atr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/115/115.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/115/115.hea" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/115/annotations.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/115/beat.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/115/beat2.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/115/beat_class/detect_processed.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/115/beat_class/raw.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/115/record.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/115/result.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/115/samples.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/116/116.atr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/116/116.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/116/116.hea" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/116/annotations.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/116/beat.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/116/beat2.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/116/beat_class/detect_processed.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/116/beat_class/raw.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/116/record.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/116/result.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/116/samples.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/117/117.atr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/117/117.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/117/117.hea" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/117/annotations.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/117/beat.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/117/beat2.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/117/beat_class/detect_processed.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/117/beat_class/raw.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/117/record.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/117/result.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/117/samples.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/118/118.atr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/118/118.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/118/118.hea" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/118/annotations.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/118/beat.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/118/beat2.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/118/beat_class/detect_processed.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/118/beat_class/raw.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/118/record.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/118/result.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/118/samples.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/119/119.atr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/119/119.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/119/119.hea" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/119/annotations.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/119/beat.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/119/beat2.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/119/beat_class/detect_processed.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/119/beat_class/raw.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/119/record.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/119/result.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/119/samples.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/121/121.atr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/121/121.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/121/121.hea" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/121/annotations.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/121/beat.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/121/beat2.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/121/beat_class/detect_processed.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/121/beat_class/raw.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/121/record.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/121/result.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/121/samples.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/122/122.atr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/122/122.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/122/122.hea" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/122/annotations.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/122/beat.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/122/beat2.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/122/beat_class/detect_processed.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/122/beat_class/raw.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/122/record.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/122/result.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/122/samples.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/123/123.atr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/123/123.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/123/123.hea" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/123/annotations.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/123/beat.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/123/beat2.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/123/beat_class/detect_processed.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/123/beat_class/raw.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/123/record.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/123/result.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/123/samples.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/124/124.atr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/124/124.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/124/124.hea" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/124/beat.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/124/beat2.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/124/beat_class/detect_processed.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/124/beat_class/raw.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/124/record.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/124/result.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/200/200.atr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/200/200.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/200/200.hea" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/200/annotations.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/200/beat.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/200/beat_class/detect_processed.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/200/beat_class/raw.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/200/record.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/200/result.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/200/samples.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/201/201.atr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/201/201.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/201/201.hea" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/201/annotations.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/201/beat.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/201/beat_class/detect_processed.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/201/beat_class/raw.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/201/record.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/201/result.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/201/samples.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/202/202.atr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/202/202.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/202/202.hea" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/202/annotations.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/202/beat.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/202/beat_class/detect_processed.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/202/beat_class/raw.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/202/record.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/202/result.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/202/samples.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/203/203.atr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/203/203.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/203/203.hea" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/203/annotations.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/203/beat.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/203/beat_class/detect_processed.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/203/beat_class/raw.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/203/record.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/203/result.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/203/samples.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/205/205.atr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/205/205.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/205/205.hea" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/205/annotations.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/205/beat.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/205/beat_class/detect_processed.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/205/beat_class/raw.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/205/record.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/205/result.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/205/samples.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/207/207.atr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/207/207.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/207/207.hea" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/207/annotations.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/207/beat.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/207/beat_class/detect_processed.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/207/beat_class/raw.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/207/record.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/207/result.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/207/samples.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/208/208.atr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/208/208.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/208/208.hea" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/208/annotations.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/208/beat.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/208/beat_class/detect_processed.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/208/beat_class/raw.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/208/record.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/208/result.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/208/samples.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/209/209.atr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/209/209.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/209/209.hea" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/209/annotations.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/209/beat.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/209/beat_class/detect_processed.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/209/beat_class/raw.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/209/record.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/209/result.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/209/samples.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/210/210.atr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/210/210.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/210/210.hea" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/210/annotations.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/210/beat.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/210/beat_class/detect_processed.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/210/beat_class/raw.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/210/record.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/210/result.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/210/samples.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/212/212.atr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/212/212.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/212/212.hea" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/212/annotations.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/212/beat.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/212/beat_class/detect_processed.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/212/beat_class/raw.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/212/record.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/212/result.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/212/samples.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/213/213.atr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/213/213.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/213/213.hea" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/213/annotations.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/213/beat.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/213/beat_class/detect_processed.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/213/beat_class/raw.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/213/record.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/213/result.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/213/samples.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/214/214.atr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/214/214.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/214/214.hea" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/214/annotations.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/214/beat.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/214/beat_class/detect_processed.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/214/beat_class/raw.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/214/record.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/214/result.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/214/samples.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/215/215.atr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/215/215.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/215/215.hea" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/215/annotations.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/215/beat.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/215/beat_class/detect_processed.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/215/beat_class/raw.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/215/record.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/215/result.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/215/samples.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/217/217.atr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/217/217.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/217/217.hea" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/217/annotations.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/217/beat.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/217/beat_class/detect_processed.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/217/beat_class/raw.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/217/record.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/217/result.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/217/samples.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/219/219.atr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/219/219.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/219/219.hea" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/219/annotations.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/219/beat.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/219/beat_class/detect_processed.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/219/beat_class/raw.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/219/record.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/219/result.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/219/samples.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/220/220.atr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/220/220.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/220/220.hea" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/220/annotations.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/220/beat.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/220/beat_class/detect_processed.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/220/beat_class/raw.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/220/record.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/220/result.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/220/samples.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/221/221.atr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/221/221.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/221/221.hea" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/221/annotations.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/221/beat.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/221/beat_class/detect_processed.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/221/beat_class/raw.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/221/record.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/221/result.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/221/samples.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/222/222.atr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/222/222.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/222/222.hea" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/222/annotations.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/222/beat.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/222/beat_class/detect_processed.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/222/beat_class/raw.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/222/record.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/222/result.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/222/samples.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/223/223.atr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/223/223.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/223/223.hea" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/223/annotations.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/223/beat.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/223/beat_class/detect_processed.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/223/beat_class/raw.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/223/record.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/223/result.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/223/samples.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/228/228.atr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/228/228.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/228/228.hea" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/228/annotations.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/228/beat.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/228/beat_class/detect_processed.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/228/beat_class/raw.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/228/record.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/228/result.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/228/samples.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/230/230.atr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/230/230.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/230/230.hea" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/230/annotations.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/230/beat.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/230/beat_class/detect_processed.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/230/beat_class/raw.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/230/record.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/230/result.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/230/samples.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/231/231.atr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/231/231.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/231/231.hea" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/231/annotations.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/231/beat.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/231/beat_class/detect_processed.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/231/beat_class/raw.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/231/record.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/231/result.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/231/samples.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/232/232.atr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/232/232.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/232/232.hea" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/232/annotations.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/232/beat.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/232/beat_class/detect_processed.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/232/beat_class/raw.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/232/record.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/232/result.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/232/samples.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/233/233.atr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/233/233.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/233/233.hea" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/233/annotations.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/233/beat.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/233/beat_class/detect_processed.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/233/beat_class/raw.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/233/record.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/233/result.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/233/samples.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/234/234.atr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/234/234.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/234/234.hea" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/234/annotations.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/234/beat.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/234/beat_class/detect_processed.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/234/beat_class/raw.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/234/record.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/234/result.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/234/samples.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/annotations.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/dataset_reader.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/res.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIT_BIH/test.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exec_time/out1.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exec_time/out2.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exec_time/out3.json" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exec_time/show_exec.py" afterPath="$PROJECT_DIR$/exec_time/show_exec.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/algo/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/algo/helper.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/detector.py" afterPath="$PROJECT_DIR$/algo/detector.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/filter.py" afterPath="$PROJECT_DIR$/algo/filter.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main_original.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/main2.py" afterPath="$PROJECT_DIR$/main_modif.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pantom_detector.py" afterPath="$PROJECT_DIR$/algo/pantom_detector.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.py" afterPath="$PROJECT_DIR$/test.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -529,10 +22,75 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="sample.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sample.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-67">
+              <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="helper.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/algo/helper.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="137">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main_original.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main_original.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="106" column="101" lean-forward="false" selection-start-line="106" selection-start-column="101" selection-end-line="106" selection-end-column="101" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main_modif.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main_modif.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="114" column="101" lean-forward="false" selection-start-line="114" selection-start-column="101" selection-end-line="114" selection-end-column="101" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/TA-Data/sample.py" />
+        <option value="$PROJECT_DIR$/main2.py" />
+        <option value="$PROJECT_DIR$/sample.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/main_modif.py" />
+        <option value="$PROJECT_DIR$/main_original.py" />
+        <option value="$PROJECT_DIR$/algo/helper.py" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -560,8 +118,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -583,6 +141,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/algo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -594,6 +160,151 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="TA-Python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="TA-Python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="TA-Python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="TA-Python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="TA-Python" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="TA-Python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="TA-Python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -613,19 +324,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1368" height="741" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25757575" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26136363" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5419355" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -650,6 +362,113 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TA-Data/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1398">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TA-Data/sample.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing_detector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo/detector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4307">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo/pantom_detector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TA-Data/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="86" column="67" lean-forward="true" selection-start-line="83" selection-start-column="8" selection-end-line="86" selection-end-column="67" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-67">
+          <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/performance_modif.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/performance_ori.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main_modif.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="114" column="101" lean-forward="false" selection-start-line="114" selection-start-column="101" selection-end-line="114" selection-end-column="101" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main_original.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="106" column="101" lean-forward="false" selection-start-line="106" selection-start-column="101" selection-end-line="106" selection-end-column="101" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo/helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
