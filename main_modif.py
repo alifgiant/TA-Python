@@ -21,7 +21,7 @@ if __name__ == '__main__':
 
     '''..........................Select Source.................................'''
     records = source.get_all_record()  # all records
-    records = source.get_one_record(num=100)      # record number 100
+    # records = source.get_one_record(num=100)      # record number 100
     # records = source.get_record_series_100()      # 100s records
     # records = source.get_record_series_200()      # 200s records
     '''........................................................................'''
@@ -74,8 +74,14 @@ if __name__ == '__main__':
         # print('delay', low_high_filter.get_delay()+der_filter.get_delay()+mwi_filter.get_delay())
         removed = mwi[int(low_high_filter.get_delay()+der_filter.get_delay()+mwi_filter.get_delay()):]
 
-        detector = BeatDetector(360, window_duration=6.5, val_by_mean=1.1, idx_by_r=0.8)
+        # detector = BeatDetector(360, window_duration=8, val_by_mean=1.1, idx_by_r=0.8)
+        # detector = BeatDetector(360, window_duration=7, val_by_mean=1.1, idx_by_r=0.8)
+        # detector = BeatDetector(360, window_duration=6.5, val_by_mean=1.1, idx_by_r=0.8)  # done
+        # detector = BeatDetector(360, window_duration=6.5, val_by_mean=0.65, idx_by_r=0.87)
+        detector = BeatDetector(360, window_duration=6.5, val_by_mean=0.65, idx_by_r=0.93)
+
         # detector = Detector(360, chunk_size_by_freq=0.2, init_duration=8, threshold_by_mean=1.1)
+
         peaks = []
         thrs = []
 
@@ -112,7 +118,7 @@ if __name__ == '__main__':
         # print('finished:', number, '|', 'accuracy:', 100 * (detect / real), '%')
         mat = ConfusionMatrix(len(beat), detect, real)
         print('finished:', record_address, '|', 'length:', len(beat),  'real:', real, 'detected:', detect)
-        print('acc:', mat.get_accuracy(), '%', 'sp:', mat.get_specificity(), 'pre:', mat.get_recall())
+        print('acc:', mat.get_accuracy(), '%', 'sp:', mat.get_specificity(), 'se:', mat.get_recall())
         # output.close()
 
         # arrhythmiaDetector = ArrhythmiaDetector(360)

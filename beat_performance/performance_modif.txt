@@ -1,0 +1,192 @@
+100
+--- 16.873713970184326 seconds ---
+finished: TA-Data/MIT_BIH/100 | length: 650000 real: 2273 detected: 2248
+acc: 99.99615384615385 % sp: 100.0 pre: 98.9001319841619
+101
+--- 17.214529752731323 seconds ---
+finished: TA-Data/MIT_BIH/101 | length: 650000 real: 1865 detected: 1862
+acc: 99.99953846153846 % sp: 100.0 pre: 99.83914209115281
+102
+--- 21.32849407196045 seconds ---
+finished: TA-Data/MIT_BIH/102 | length: 650000 real: 2187 detected: 2182
+acc: 99.99923076923078 % sp: 100.0 pre: 99.77137631458619
+103
+--- 22.647855520248413 seconds ---
+finished: TA-Data/MIT_BIH/103 | length: 650000 real: 2084 detected: 2083
+acc: 99.99984615384615 % sp: 100.0 pre: 99.95201535508637
+104
+--- 23.57330083847046 seconds ---
+finished: TA-Data/MIT_BIH/104 | length: 650000 real: 2229 detected: 2137
+acc: 99.98584615384615 % sp: 100.0 pre: 95.87258860475549
+105
+--- 24.664165496826172 seconds ---
+finished: TA-Data/MIT_BIH/105 | length: 650000 real: 2572 detected: 2506
+acc: 99.98984615384614 % sp: 100.0 pre: 97.4339035769829
+106
+--- 26.633291482925415 seconds ---
+finished: TA-Data/MIT_BIH/106 | length: 650000 real: 2027 detected: 1725
+acc: 99.95353846153846 % sp: 100.0 pre: 85.10113468179576
+107
+--- 26.135506629943848 seconds ---
+finished: TA-Data/MIT_BIH/107 | length: 650000 real: 2137 detected: 2094
+acc: 99.99338461538461 % sp: 100.0 pre: 97.98783341132429
+108
+--- 24.757141828536987 seconds ---
+finished: TA-Data/MIT_BIH/108 | length: 650000 real: 1774 detected: 1764
+acc: 99.99846153846154 % sp: 100.0 pre: 99.43630214205186
+109
+--- 23.899353742599487 seconds ---
+finished: TA-Data/MIT_BIH/109 | length: 650000 real: 2532 detected: 2526
+acc: 99.99907692307693 % sp: 100.0 pre: 99.76303317535546
+111
+--- 24.512705087661743 seconds ---
+finished: TA-Data/MIT_BIH/111 | length: 650000 real: 2124 detected: 2122
+acc: 99.99969230769231 % sp: 100.0 pre: 99.90583804143127
+112
+--- 22.81253147125244 seconds ---
+finished: TA-Data/MIT_BIH/112 | length: 650000 real: 2539 detected: 2713
+acc: 99.97323076923077 % sp: 99.97312579444939 pre: 100.0
+113
+--- 22.445921659469604 seconds ---
+finished: TA-Data/MIT_BIH/113 | length: 650000 real: 1795 detected: 1935
+acc: 99.97846153846154 % sp: 99.9784018944624 pre: 100.0
+114
+--- 22.476762056350708 seconds ---
+finished: TA-Data/MIT_BIH/114 | length: 650000 real: 1879 detected: 1796
+acc: 99.98723076923078 % sp: 100.0 pre: 95.58275678552421
+115
+--- 25.976546049118042 seconds ---
+finished: TA-Data/MIT_BIH/115 | length: 650000 real: 1953 detected: 1951
+acc: 99.99969230769231 % sp: 100.0 pre: 99.89759344598055
+116
+--- 22.91657519340515 seconds ---
+finished: TA-Data/MIT_BIH/116 | length: 650000 real: 2412 detected: 2295
+acc: 99.982 % sp: 100.0 pre: 95.1492537313433
+117
+--- 23.092327117919922 seconds ---
+finished: TA-Data/MIT_BIH/117 | length: 650000 real: 1535 detected: 1536
+acc: 99.99984615384615 % sp: 99.99984578967253 pre: 100.0
+118
+--- 24.24072504043579 seconds ---
+finished: TA-Data/MIT_BIH/118 | length: 650000 real: 2288 detected: 2214
+acc: 99.98861538461539 % sp: 100.0 pre: 96.76573426573427
+119
+--- 26.745474338531494 seconds ---
+finished: TA-Data/MIT_BIH/119 | length: 650000 real: 1987 detected: 1802
+acc: 99.97153846153846 % sp: 100.0 pre: 90.68948163059889
+121
+--- 29.735509634017944 seconds ---
+finished: TA-Data/MIT_BIH/121 | length: 650000 real: 1863 detected: 1859
+acc: 99.99938461538461 % sp: 100.0 pre: 99.78529253891573
+122
+--- 26.19638681411743 seconds ---
+finished: TA-Data/MIT_BIH/122 | length: 650000 real: 2476 detected: 2475
+acc: 99.99984615384615 % sp: 100.0 pre: 99.95961227786752
+123
+--- 28.108851194381714 seconds ---
+finished: TA-Data/MIT_BIH/123 | length: 650000 real: 1518 detected: 1513
+acc: 99.99923076923078 % sp: 100.0 pre: 99.67061923583663
+124
+--- 32.44678068161011 seconds ---
+finished: TA-Data/MIT_BIH/124 | length: 650000 real: 1619 detected: 1606
+acc: 99.998 % sp: 100.0 pre: 99.19703520691785
+200
+--- 34.70626997947693 seconds ---
+finished: TA-Data/MIT_BIH/200 | length: 650000 real: 2601 detected: 2242
+acc: 99.94476923076923 % sp: 100.0 pre: 86.19761630142253
+201
+--- 33.06220364570618 seconds ---
+finished: TA-Data/MIT_BIH/201 | length: 650000 real: 2000 detected: 1717
+acc: 99.95646153846154 % sp: 100.0 pre: 85.85000000000001
+202
+--- 31.61906385421753 seconds ---
+finished: TA-Data/MIT_BIH/202 | length: 650000 real: 2136 detected: 1982
+acc: 99.9763076923077 % sp: 100.0 pre: 92.79026217228464
+203
+--- 31.078661680221558 seconds ---
+finished: TA-Data/MIT_BIH/203 | length: 650000 real: 2980 detected: 1992
+acc: 99.848 % sp: 100.0 pre: 66.84563758389261
+205
+--- 25.74726963043213 seconds ---
+finished: TA-Data/MIT_BIH/205 | length: 650000 real: 2656 detected: 2607
+acc: 99.99246153846154 % sp: 100.0 pre: 98.15512048192771
+207
+--- 25.584877252578735 seconds ---
+finished: TA-Data/MIT_BIH/207 | length: 650000 real: 2332 detected: 1934
+acc: 99.93876923076922 % sp: 100.0 pre: 82.93310463121783
+208
+--- 25.903031587600708 seconds ---
+finished: TA-Data/MIT_BIH/208 | length: 650000 real: 2955 detected: 2524
+acc: 99.93369230769231 % sp: 100.0 pre: 85.414551607445
+209
+--- 30.312719345092773 seconds ---
+finished: TA-Data/MIT_BIH/209 | length: 650000 real: 3005 detected: 2965
+acc: 99.99384615384615 % sp: 100.0 pre: 98.66888519134775
+210
+--- 25.32552194595337 seconds ---
+finished: TA-Data/MIT_BIH/210 | length: 650000 real: 2650 detected: 2429
+acc: 99.966 % sp: 100.0 pre: 91.66037735849056
+212
+--- 26.588884353637695 seconds ---
+finished: TA-Data/MIT_BIH/212 | length: 650000 real: 2748 detected: 2748
+acc: 100.0 % sp: 100.0 pre: 100.0
+213
+--- 27.421273231506348 seconds ---
+finished: TA-Data/MIT_BIH/213 | length: 650000 real: 3251 detected: 3217
+acc: 99.99476923076924 % sp: 100.0 pre: 98.95416794832359
+214
+--- 31.367204666137695 seconds ---
+finished: TA-Data/MIT_BIH/214 | length: 650000 real: 2262 detected: 2118
+acc: 99.97784615384614 % sp: 100.0 pre: 93.63395225464191
+215
+--- 27.909297227859497 seconds ---
+finished: TA-Data/MIT_BIH/215 | length: 650000 real: 3363 detected: 2873
+acc: 99.9246153846154 % sp: 100.0 pre: 85.42967588462682
+217
+--- 24.048614740371704 seconds ---
+finished: TA-Data/MIT_BIH/217 | length: 650000 real: 2208 detected: 2118
+acc: 99.98615384615384 % sp: 100.0 pre: 95.92391304347827
+219
+--- 28.021482706069946 seconds ---
+finished: TA-Data/MIT_BIH/219 | length: 650000 real: 2287 detected: 1927
+acc: 99.94461538461539 % sp: 100.0 pre: 84.25885439440314
+220
+--- 36.864962100982666 seconds ---
+finished: TA-Data/MIT_BIH/220 | length: 650000 real: 2048 detected: 1991
+acc: 99.99123076923077 % sp: 100.0 pre: 97.216796875
+221
+--- 35.12860083580017 seconds ---
+finished: TA-Data/MIT_BIH/221 | length: 650000 real: 2427 detected: 2008
+acc: 99.93553846153847 % sp: 100.0 pre: 82.7358879274825
+222
+--- 35.23314094543457 seconds ---
+finished: TA-Data/MIT_BIH/222 | length: 650000 real: 2483 detected: 2173
+acc: 99.9523076923077 % sp: 100.0 pre: 87.51510269834877
+223
+--- 33.91150689125061 seconds ---
+finished: TA-Data/MIT_BIH/223 | length: 650000 real: 2605 detected: 2382
+acc: 99.96569230769231 % sp: 100.0 pre: 91.43953934740883
+228
+--- 40.4912633895874 seconds ---
+finished: TA-Data/MIT_BIH/228 | length: 650000 real: 2053 detected: 1435
+acc: 99.90492307692308 % sp: 100.0 pre: 69.89771066731613
+230
+--- 40.757335901260376 seconds ---
+finished: TA-Data/MIT_BIH/230 | length: 650000 real: 2256 detected: 2255
+acc: 99.99984615384615 % sp: 100.0 pre: 99.95567375886525
+231
+--- 36.12800574302673 seconds ---
+finished: TA-Data/MIT_BIH/231 | length: 650000 real: 1573 detected: 1572
+acc: 99.99984615384615 % sp: 100.0 pre: 99.93642720915447
+232
+--- 39.20680022239685 seconds ---
+finished: TA-Data/MIT_BIH/232 | length: 650000 real: 1780 detected: 1851
+acc: 99.98907692307692 % sp: 99.98904692851193 pre: 100.0
+233
+--- 29.325107097625732 seconds ---
+finished: TA-Data/MIT_BIH/233 | length: 650000 real: 3079 detected: 2421
+acc: 99.89876923076923 % sp: 100.0 pre: 78.62942513803183
+234
+--- 28.854518175125122 seconds ---
+finished: TA-Data/MIT_BIH/234 | length: 650000 real: 2753 detected: 2749
+acc: 99.99938461538461 % sp: 100.0 pre: 99.8547039593171

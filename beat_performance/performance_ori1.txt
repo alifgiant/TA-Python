@@ -1,0 +1,192 @@
+100
+---  15.481154680252075 seconds ---
+finished: TA-Data/MIT_BIH/100 | length: 650000 real: 2273 detected: 2410
+acc: 99.97892307692308 % sp: 99.97884911390138 pre: 100.0
+101
+---  16.700833320617676 seconds ---
+finished: TA-Data/MIT_BIH/101 | length: 650000 real: 1865 detected: 2573
+acc: 99.89107692307692 % sp: 99.89076349834525 pre: 100.0
+102
+---  16.042447566986084 seconds ---
+finished: TA-Data/MIT_BIH/102 | length: 650000 real: 2187 detected: 2468
+acc: 99.95676923076923 % sp: 99.95662328480596 pre: 100.0
+103
+---  18.82042169570923 seconds ---
+finished: TA-Data/MIT_BIH/103 | length: 650000 real: 2084 detected: 2266
+acc: 99.97200000000001 % sp: 99.9719099389427 pre: 100.0
+104
+---  22.199791193008423 seconds ---
+finished: TA-Data/MIT_BIH/104 | length: 650000 real: 2229 detected: 2224
+acc: 99.99923076923078 % sp: 100.0 pre: 99.77568416330193
+105
+---  22.967477560043335 seconds ---
+finished: TA-Data/MIT_BIH/105 | length: 650000 real: 2572 detected: 3082
+acc: 99.92153846153846 % sp: 99.92122676189476 pre: 100.0
+106
+---  23.150599002838135 seconds ---
+finished: TA-Data/MIT_BIH/106 | length: 650000 real: 2027 detected: 2500
+acc: 99.92723076923077 % sp: 99.92700313130331 pre: 100.0
+107
+---  24.42578411102295 seconds ---
+finished: TA-Data/MIT_BIH/107 | length: 650000 real: 2137 detected: 2238
+acc: 99.98446153846153 % sp: 99.98441028427307 pre: 100.0
+108
+---  28.42846179008484 seconds ---
+finished: TA-Data/MIT_BIH/108 | length: 650000 real: 1774 detected: 3346
+acc: 99.75815384615385 % sp: 99.75749198581975 pre: 100.0
+109
+---  24.783833026885986 seconds ---
+finished: TA-Data/MIT_BIH/109 | length: 650000 real: 2532 detected: 2753
+acc: 99.966 % sp: 99.9658670389888 pre: 100.0
+111
+---  23.395838022232056 seconds ---
+finished: TA-Data/MIT_BIH/111 | length: 650000 real: 2124 detected: 2178
+acc: 99.9916923076923 % sp: 99.99166507171125 pre: 100.0
+112
+---  22.574302434921265 seconds ---
+finished: TA-Data/MIT_BIH/112 | length: 650000 real: 2539 detected: 2450
+acc: 99.98630769230769 % sp: 100.0 pre: 96.49468294604175
+113
+---  23.072161436080933 seconds ---
+finished: TA-Data/MIT_BIH/113 | length: 650000 real: 1795 detected: 3384
+acc: 99.75553846153846 % sp: 99.75486150214824 pre: 100.0
+114
+---  22.22784686088562 seconds ---
+finished: TA-Data/MIT_BIH/114 | length: 650000 real: 1879 detected: 3286
+acc: 99.78353846153846 % sp: 99.78291090706828 pre: 100.0
+115
+---  22.025240898132324 seconds ---
+finished: TA-Data/MIT_BIH/115 | length: 650000 real: 1953 detected: 3146
+acc: 99.81646153846154 % sp: 99.81590841405021 pre: 100.0
+116
+---  22.883179187774658 seconds ---
+finished: TA-Data/MIT_BIH/116 | length: 650000 real: 2412 detected: 2688
+acc: 99.95753846153846 % sp: 99.95738030970308 pre: 100.0
+117
+---  24.52847385406494 seconds ---
+finished: TA-Data/MIT_BIH/117 | length: 650000 real: 1535 detected: 3433
+acc: 99.708 % sp: 99.70730879847022 pre: 100.0
+118
+---  22.178670644760132 seconds ---
+finished: TA-Data/MIT_BIH/118 | length: 650000 real: 2288 detected: 2578
+acc: 99.95538461538462 % sp: 99.95522701447557 pre: 100.0
+119
+---  22.459089040756226 seconds ---
+finished: TA-Data/MIT_BIH/119 | length: 650000 real: 1987 detected: 2251
+acc: 99.95938461538462 % sp: 99.95926007657255 pre: 100.0
+121
+---  24.233582019805908 seconds ---
+finished: TA-Data/MIT_BIH/121 | length: 650000 real: 1863 detected: 2540
+acc: 99.89584615384615 % sp: 99.8955467748331 pre: 100.0
+122
+---  25.999260187149048 seconds ---
+finished: TA-Data/MIT_BIH/122 | length: 650000 real: 2476 detected: 3277
+acc: 99.87676923076924 % sp: 99.87629802138608 pre: 100.0
+123
+---  28.145260334014893 seconds ---
+finished: TA-Data/MIT_BIH/123 | length: 650000 real: 1518 detected: 3030
+acc: 99.76738461538461 % sp: 99.766840097335 pre: 100.0
+124
+---  26.693984031677246 seconds ---
+finished: TA-Data/MIT_BIH/124 | length: 650000 real: 1619 detected: 3229
+acc: 99.7523076923077 % sp: 99.75168920742587 pre: 100.0
+200
+---  28.081605911254883 seconds ---
+finished: TA-Data/MIT_BIH/200 | length: 650000 real: 2601 detected: 2720
+acc: 99.9816923076923 % sp: 99.9816187544312 pre: 100.0
+201
+---  34.72641158103943 seconds ---
+finished: TA-Data/MIT_BIH/201 | length: 650000 real: 2000 detected: 3106
+acc: 99.82984615384616 % sp: 99.82932098765433 pre: 100.0
+202
+---  32.81629133224487 seconds ---
+finished: TA-Data/MIT_BIH/202 | length: 650000 real: 2136 detected: 3301
+acc: 99.82076923076923 % sp: 99.82017830902782 pre: 100.0
+203
+---  31.516401767730713 seconds ---
+finished: TA-Data/MIT_BIH/203 | length: 650000 real: 2980 detected: 3857
+acc: 99.86507692307693 % sp: 99.86445550369386 pre: 100.0
+205
+---  30.727334022521973 seconds ---
+finished: TA-Data/MIT_BIH/205 | length: 650000 real: 2656 detected: 2697
+acc: 99.9936923076923 % sp: 99.99366642774167 pre: 100.0
+207
+---  30.109018564224243 seconds ---
+finished: TA-Data/MIT_BIH/207 | length: 650000 real: 2332 detected: 3273
+acc: 99.85523076923077 % sp: 99.85470951166339 pre: 100.0
+208
+---  26.540575742721558 seconds ---
+finished: TA-Data/MIT_BIH/208 | length: 650000 real: 2955 detected: 2632
+acc: 99.95030769230769 % sp: 100.0 pre: 89.06937394247039
+209
+---  25.445536375045776 seconds ---
+finished: TA-Data/MIT_BIH/209 | length: 650000 real: 3005 detected: 2639
+acc: 99.94369230769232 % sp: 100.0 pre: 87.82029950083195
+210
+---  24.62333869934082 seconds ---
+finished: TA-Data/MIT_BIH/210 | length: 650000 real: 2650 detected: 3542
+acc: 99.86276923076923 % sp: 99.86220746118792 pre: 100.0
+212
+---  30.283729076385498 seconds ---
+finished: TA-Data/MIT_BIH/212 | length: 650000 real: 2748 detected: 2755
+acc: 99.99892307692308 % sp: 99.99891850469369 pre: 100.0
+213
+---  26.09924840927124 seconds ---
+finished: TA-Data/MIT_BIH/213 | length: 650000 real: 3251 detected: 2499
+acc: 99.8843076923077 % sp: 100.0 pre: 76.86865579821594
+214
+---  25.21069049835205 seconds ---
+finished: TA-Data/MIT_BIH/214 | length: 650000 real: 2262 detected: 2333
+acc: 99.98907692307692 % sp: 99.98903877802445 pre: 100.0
+215
+---  25.668405055999756 seconds ---
+finished: TA-Data/MIT_BIH/215 | length: 650000 real: 3363 detected: 2374
+acc: 99.84784615384615 % sp: 100.0 pre: 70.59173357121618
+217
+---  30.785422801971436 seconds ---
+finished: TA-Data/MIT_BIH/217 | length: 650000 real: 2208 detected: 2310
+acc: 99.9843076923077 % sp: 99.98425420505347 pre: 100.0
+219
+---  27.264570951461792 seconds ---
+finished: TA-Data/MIT_BIH/219 | length: 650000 real: 2287 detected: 3017
+acc: 99.8876923076923 % sp: 99.88729576216627 pre: 100.0
+220
+---  22.908363103866577 seconds ---
+finished: TA-Data/MIT_BIH/220 | length: 650000 real: 2048 detected: 2393
+acc: 99.94692307692307 % sp: 99.94675531520853 pre: 100.0
+221
+---  27.714701890945435 seconds ---
+finished: TA-Data/MIT_BIH/221 | length: 650000 real: 2427 detected: 2908
+acc: 99.926 % sp: 99.92572265983912 pre: 100.0
+222
+---  34.674079179763794 seconds ---
+finished: TA-Data/MIT_BIH/222 | length: 650000 real: 2483 detected: 2385
+acc: 99.98492307692308 % sp: 100.0 pre: 96.05316149818768
+223
+---  34.36323833465576 seconds ---
+finished: TA-Data/MIT_BIH/223 | length: 650000 real: 2605 detected: 2749
+acc: 99.97784615384614 % sp: 99.97775701078939 pre: 100.0
+228
+---  36.093708992004395 seconds ---
+finished: TA-Data/MIT_BIH/228 | length: 650000 real: 2053 detected: 1732
+acc: 99.95061538461539 % sp: 100.0 pre: 84.36434486117876
+230
+---  34.104820728302 seconds ---
+finished: TA-Data/MIT_BIH/230 | length: 650000 real: 2256 detected: 2641
+acc: 99.94076923076923 % sp: 99.94056293844483 pre: 100.0
+231
+---  41.33450531959534 seconds ---
+finished: TA-Data/MIT_BIH/231 | length: 650000 real: 1573 detected: 2884
+acc: 99.7983076923077 % sp: 99.79781841286683 pre: 100.0
+232
+---  40.59529519081116 seconds ---
+finished: TA-Data/MIT_BIH/232 | length: 650000 real: 1780 detected: 2423
+acc: 99.90107692307693 % sp: 99.9008052821573 pre: 100.0
+233
+---  34.18812322616577 seconds ---
+finished: TA-Data/MIT_BIH/233 | length: 650000 real: 3079 detected: 3074
+acc: 99.99923076923078 % sp: 100.0 pre: 99.83760961351088
+234
+---  39.93384337425232 seconds ---
+finished: TA-Data/MIT_BIH/234 | length: 650000 real: 2753 detected: 2740
+acc: 99.998 % sp: 100.0 pre: 99.5277878677806
