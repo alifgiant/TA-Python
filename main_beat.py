@@ -4,13 +4,100 @@ import CsvLoader
 import sample
 from algo.filter import Filter
 
+from algo.pantom_detector import Detector  # original
 from algo.detector import BeatDetector  # modified
 from algo.helper import ConfusionMatrix
 
 
-def get_r_distance(peaks):
+def do_preprocessing(raw_signal):
+    # filtering
+    low_high_filter = Filter('coef/coef-filter.json')
+    filtered = []
+    for x in raw_signal:
+        filtered.append(low_high_filter.execute(x))
+
+    # derivative
+    der_filter = Filter('coef/coef-derr.json')
+    der = []
+    for x in filtered:
+        der.append(der_filter.execute(x))
+
+    squared = []
+    for x in der:
+        squared.append(x ** 2)
+
+    # MWI
+    mwi_filter = Filter('coef/coef-mwi.json')
+    mwi = []
+    for x in squared:
+        mwi.append(mwi_filter.execute(x))
+
+    # print(mwi)
+
+    # REMOVED DELAY
+    # print('delay', low_high_filter.get_delay()+der_filter.get_delay()+mwi_filter.get_delay())
+    removed = mwi[int(low_high_filter.get_delay() + der_filter.get_delay() + mwi_filter.get_delay()):]
+
+    return removed
+
+
+def do_original_algo(raw_signal):
+    removed = do_preprocessing(raw_signal)
+
+    # detector = BeatDetector(360, window_duration=2.2, val_by_mean=1.1, idx_by_r=0.72)
+    detector = Detector(360, chunk_size_by_freq=0.2, init_duration=8, threshold_by_mean=1.1)
+    peaks = []
+    thrs = []
+
+    for x in removed:
+        res = detector.detect(x)
+        if res and len(res) > 1:
+            peak, thr = res
+            peaks += peak
+            thrs += thr
+
+    peaks += [0] * len(detector.search_back_sample)
+    thrs += [0] * len(detector.search_back_sample)
+
+    return peaks
+
+
+def do_modified_algo(raw_signal):
+    removed = do_preprocessing(raw_signal)
+
+    # detector = BeatDetector(360, window_duration=8, val_by_mean=1.1, idx_by_r=0.8)
+    # detector = BeatDetector(360, window_duration=7, val_by_mean=1.1, idx_by_r=0.8)
+    # detector = BeatDetector(360, window_duration=6.5, val_by_mean=1.1, idx_by_r=0.8)  # done
+    # detector = BeatDetector(360, window_duration=6.5, val_by_mean=0.65, idx_by_r=0.87)
+    detector = BeatDetector(360, window_duration=6.5, val_by_mean=0.65, idx_by_r=0.93)
+
+    peaks = []
+    thrs = []
+
+    for x in removed:
+        res = detector.detect(x)
+        if res and len(res) > 1:
+            peak, thr = res
+            peaks += peak
+            thrs += thr
+
+    # peaks += [0] * len(detector.search_back_sample)
+    # thrs += [0] * len(detector.search_back_sample)
+
+    # execute what left in buffer
+    res = detector.execute_buffer()
+
+    if res and len(res) > 1:
+        peak, thr = res
+        peaks += peak
+        thrs += thr
+
+    return peaks
+
+
+def get_r_distance(peaks_list):
     last_idx = 0
-    for idx, val in enumerate(peaks):
+    for idx, val in enumerate(peaks_list):
         if val == 0.5:
             yield (idx - last_idx)
             last_idx = idx
@@ -46,62 +133,10 @@ if __name__ == '__main__':
 
         start_time = time.time()
 
-        # filtering
-        low_high_filter = Filter('coef/coef-filter.json')
-        filtered = []
-        for x in raw:
-            filtered.append(low_high_filter.execute(x))
-
-        # derivative
-        der_filter = Filter('coef/coef-derr.json')
-        der = []
-        for x in filtered:
-            der.append(der_filter.execute(x))
-
-        squared = []
-        for x in der:
-            squared.append(x**2)
-
-        # MWI
-        mwi_filter = Filter('coef/coef-mwi.json')
-        mwi = []
-        for x in squared:
-            mwi.append(mwi_filter.execute(x))
-
-        # print(mwi)
-
-        # REMOVED DELAY
-        # print('delay', low_high_filter.get_delay()+der_filter.get_delay()+mwi_filter.get_delay())
-        removed = mwi[int(low_high_filter.get_delay()+der_filter.get_delay()+mwi_filter.get_delay()):]
-
-        # detector = BeatDetector(360, window_duration=8, val_by_mean=1.1, idx_by_r=0.8)
-        # detector = BeatDetector(360, window_duration=7, val_by_mean=1.1, idx_by_r=0.8)
-        # detector = BeatDetector(360, window_duration=6.5, val_by_mean=1.1, idx_by_r=0.8)  # done
-        # detector = BeatDetector(360, window_duration=6.5, val_by_mean=0.65, idx_by_r=0.87)
-        detector = BeatDetector(360, window_duration=6.5, val_by_mean=0.65, idx_by_r=0.93)
-
-        # detector = Detector(360, chunk_size_by_freq=0.2, init_duration=8, threshold_by_mean=1.1)
-
-        peaks = []
-        thrs = []
-
-        for x in removed:
-            res = detector.detect(x)
-            if res and len(res) > 1:
-                peak, thr = res
-                peaks += peak
-                thrs += thr
-
-        # peaks += [0] * len(detector.search_back_sample)
-        # thrs += [0] * len(detector.search_back_sample)
-
-        # execute what left in buffer
-        res = detector.execute_buffer()      
-
-        if res and len(res) > 1:
-            peak, thr = res
-            peaks += peak
-            thrs += thr        
+        '''..........................Select Detector.................................'''
+        # peaks = do_original_algo(raw)
+        peaks = do_modified_algo(raw)
+        '''..........................Select Detector.................................'''
 
         stop_time = time.time()
         print("--- %s seconds ---" % (stop_time - start_time))

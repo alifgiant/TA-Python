@@ -4,7 +4,7 @@ import itertools
 PEAK = 0.5
 
 
-class Detector(object):
+class BeatDetector(object):
     def __init__(self, sampling_freq, chunk_size_by_freq=0.2, init_duration=8, threshold_by_mean=1):
         # experiment variable
         self.init_duration = init_duration  # in second
