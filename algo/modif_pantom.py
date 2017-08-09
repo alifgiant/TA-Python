@@ -83,7 +83,6 @@ class BeatDetector(object):
             for idx in peaks_removed:
                 peak_feed[idx] = PEAK
 
-
         # clear buffer
         self.sample.clear()
         return peak_feed, threshold_feed
@@ -98,7 +97,6 @@ class BeatDetector(object):
         if len(self.sample) % (self.window_duration * self.freq) == 0:            
             return self.execute_buffer()
 
-
 class ArrhythmiaDetector(object):
     """
     Based on An arrhythmia classification system based on the RR-interval signal
@@ -111,7 +109,8 @@ class ArrhythmiaDetector(object):
 
         # holder
         self.rr_holder = []
-        self.beat_class = []        
+        self.beat_class = []
+        self.temp = 0
 
     def __get_r_window(self, i):
         return self.rr_holder[i-1], self.rr_holder[i], self.rr_holder[i-+1]
@@ -167,27 +166,29 @@ class ArrhythmiaDetector(object):
         i = 1
         pulse = 0
         while not self.__is_exceed_holder(i) and not should_stop:  # window iterator
-            # # VF area
-            # if self.__check1(self.__get_r_window(i)):
-            #     self.beat_class[i] = 3
-            #     pulse += 1
-            #     i += 1
-            #     while not self.__is_exceed_holder(i) and self.__check2(self.__get_r_window(i)):
-            #         self.beat_class[i] = 3
-            #         pulse += 1
-            #         i += 1
-            #     if self.__is_exceed_holder(i):
-            #         # stop and return to i - pulse, re check after new window arrived
-            #         should_stop = True
-            #         i -= pulse
-            #     elif pulse < 4:
-            #         while pulse > 0:
-            #             i -= 1
-            #             pulse -= 1
-            #             self.beat_class[i] = 1  # set to category 1
+            # VF area            
+            if self.__check1(self.__get_r_window(i)):
+                # self.beat_class[i] = 3
+                # pulse += 1
+                # i += 1
+                while not self.__is_exceed_holder(i) and self.__check2(self.__get_r_window(i)):
+                    self.beat_class[i] = 3
+                    pulse += 1
+                    i += 1
+                if self.__is_exceed_holder(i):
+                    # stop and return to i - pulse, re check after new window arrived
+                    should_stop = True
+                    i -= pulse
+                elif pulse < 4:
+                    while pulse > 0:
+                        i -= 1
+                        pulse -= 1
+                        self.beat_class[i] = 1  # set to category 1
 
             window = self.__get_r_window(i)
             # PVC area
+            print(self.temp, (self.__check3(window) or self.__check4(window) or self.__check5(window)))
+            self.temp += 1
             if not should_stop and (self.__check3(window) or self.__check4(window) or self.__check5(window)):
                 self.beat_class[i] = 2  # set to category 2
 
@@ -202,6 +203,7 @@ class ArrhythmiaDetector(object):
         # remove first class, because un calculated or has calculated on last window
         # remove from i to last, because un calculated, wait for next window
         return self.beat_class[1:i]
+        # return self.beat_class[1:]
 
 
 class ArrhythmiaEpisodeDetector(object):

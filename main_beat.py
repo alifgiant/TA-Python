@@ -4,9 +4,18 @@ import CsvLoader
 import sample
 from algo.filter import Filter
 
-from algo.pantom_detector import Detector  # original
-from algo.detector import BeatDetector  # modified
+from algo import original_pantom  # original
+from algo import modif_pantom  # modified
 from algo.helper import ConfusionMatrix
+
+
+def beat_loc_and_signal(address, begin, end):
+    file_beat = json.load(open(address + '/beat_loc.json'))[begin:end]
+
+    # raw = CsvLoader.load_dummy(1)
+    file_raw = CsvLoader.load(address + '/record.csv')[begin:end]
+
+    return file_beat, file_raw
 
 
 def do_preprocessing(raw_signal):
@@ -41,11 +50,11 @@ def do_preprocessing(raw_signal):
     return removed
 
 
-def do_original_algo(raw_signal):
+def do_original_algorithm(raw_signal):
     removed = do_preprocessing(raw_signal)
 
     # detector = BeatDetector(360, window_duration=2.2, val_by_mean=1.1, idx_by_r=0.72)
-    detector = Detector(360, chunk_size_by_freq=0.2, init_duration=8, threshold_by_mean=1.1)
+    detector = original_pantom.BeatDetector(360, chunk_size_by_freq=0.2, init_duration=8, threshold_by_mean=1.1)
     peaks = []
     thrs = []
 
@@ -62,14 +71,14 @@ def do_original_algo(raw_signal):
     return peaks
 
 
-def do_modified_algo(raw_signal):
+def do_modified_algorithm(raw_signal):
     removed = do_preprocessing(raw_signal)
 
-    # detector = BeatDetector(360, window_duration=8, val_by_mean=1.1, idx_by_r=0.8)
-    # detector = BeatDetector(360, window_duration=7, val_by_mean=1.1, idx_by_r=0.8)
-    # detector = BeatDetector(360, window_duration=6.5, val_by_mean=1.1, idx_by_r=0.8)  # done
-    # detector = BeatDetector(360, window_duration=6.5, val_by_mean=0.65, idx_by_r=0.87)
-    detector = BeatDetector(360, window_duration=6.5, val_by_mean=0.65, idx_by_r=0.93)
+    # detector = modif_pantom.BeatDetector(360, window_duration=8, val_by_mean=1.1, idx_by_r=0.8)
+    # detector = modif_pantom.BeatDetector(360, window_duration=7, val_by_mean=1.1, idx_by_r=0.8)
+    detector = modif_pantom.BeatDetector(360, window_duration=6.5, val_by_mean=1.1, idx_by_r=0.8)
+    # detector = modif_pantom.BeatDetector(360, window_duration=6.5, val_by_mean=0.65, idx_by_r=0.87)
+    # detector = modif_pantom.BeatDetector(360, window_duration=6.5, val_by_mean=0.65, idx_by_r=0.93)
 
     peaks = []
     thrs = []
@@ -94,14 +103,6 @@ def do_modified_algo(raw_signal):
 
     return peaks
 
-
-def get_r_distance(peaks_list):
-    last_idx = 0
-    for idx, val in enumerate(peaks_list):
-        if val == 0.5:
-            yield (idx - last_idx)
-            last_idx = idx
-
 if __name__ == '__main__':
     source = sample.MitBih
     base = sample.MitBih.base
@@ -121,74 +122,63 @@ if __name__ == '__main__':
     '''..........................Select Start Stop.................................'''
 
     for record in records:
-        str_record = str(record)
-        print(str_record)
+        for x in range(10):  # 10 experiment            
+            str_record = str(record)
+            print(str_record)
 
-        record_address = base + '/' + str_record
+            record_address = base + '/' + str_record
 
-        beat = json.load(open(record_address + '/beat_loc.json'))[start:stop]
+            '''.............................Load Data....................................'''
+            beat, raw = beat_loc_and_signal(record_address, start, stop)
 
-        # raw = CsvLoader.load_dummy(1)
-        raw = CsvLoader.load(record_address + '/record.csv')[start:stop]
+            start_time = time.time()
+            '''..........................Select Detector.................................'''
+            # detected_peaks = do_original_algorithm(raw)
+            detected_peaks = do_modified_algorithm(raw)
+            '''..........................Select Detector.................................'''
+            stop_time = time.time()
+            print("--- %s seconds ---" % (stop_time - start_time))
 
-        start_time = time.time()
+            real = beat.count(1)
+            detect = detected_peaks.count(0.5)
 
-        '''..........................Select Detector.................................'''
-        # peaks = do_original_algo(raw)
-        peaks = do_modified_algo(raw)
-        '''..........................Select Detector.................................'''
+            # output = open(number + '/result.txt', 'w')
+            # print('beat in real', real, file=output)
+            # print('beat in detected', detect, file=output)
+            # print('beat missed |x|', abs(real-detect), file=output)
+            # print('accuracy', 100 * (detect / real), '%', file=output)
+            # print('missed', 100 * (abs(detect-real) / real), '%', file=output)
+            # print('finished:', number, '|', 'accuracy:', 100 * (detect / real), '%')
+            mat = ConfusionMatrix(len(beat), detect, real)
+            print('ex:', x, '|', 'finished:', record_address, '|', 'length:', len(beat),  'real:', real, 'detected:', detect)
+            print('acc:', mat.get_accuracy(), '%', 'sp:', mat.get_specificity(), 'se:', mat.get_recall())
+            # output.close()
 
-        stop_time = time.time()
-        print("--- %s seconds ---" % (stop_time - start_time))
+            '''..............................Exactly at Same Loc Acc................................'''
+            # peaks = peaks[2:]
+            # same = 0
+            # for x, y in zip(beat, peaks):
+            #     if (x == 1 and y == 0.5):
+            #         same += 1
+            # print('same:', same, 'len-beat', len(beat), 'len-peak', len(peaks))
+            '''..............................Exactly at Same Loc Acc................................'''
 
-        real = beat.count(1)
-        detect = peaks.count(0.5)
-
-        # output = open(number + '/result.txt', 'w')
-        # print('beat in real', real, file=output)
-        # print('beat in detected', detect, file=output)
-        # print('beat missed |x|', abs(real-detect), file=output)
-        # print('accuracy', 100 * (detect / real), '%', file=output)
-        # print('missed', 100 * (abs(detect-real) / real), '%', file=output)
-        # print('finished:', number, '|', 'accuracy:', 100 * (detect / real), '%')
-        mat = ConfusionMatrix(len(beat), detect, real)
-        print('finished:', record_address, '|', 'length:', len(beat),  'real:', real, 'detected:', detect)
-        print('acc:', mat.get_accuracy(), '%', 'sp:', mat.get_specificity(), 'se:', mat.get_recall())
-        # output.close()
-
-        # arrhythmiaDetector = ArrhythmiaDetector(360)
-        # r_distance = list(get_r_distance(peaks))
-        # beat_classes = arrhythmiaDetector.detect(r_distance)
-        
-        # # assume first and last is normal
-        # beat_classes = [1] + beat_classes + [1]
-
-        # count = Counter(beat_classes)
-        # print('type', number, count)
-
-        # peaks = peaks[2:]
-
-        # same = 0
-        # for x, y in zip(beat, peaks):
-        #     if (x == 1 and y == 0.5):
-        #         same += 1
-
-        # print('same:', same, 'len-beat', len(beat), 'len-peak', len(peaks))
-
-        # import matplotlib.pyplot as plt
-        # fig, (ax_raw, ax_filtered, ax_der, ax_squared, ax_mwi, ax_peaks) = plt.subplots(6, 1)
-        
-        # ax_raw.plot(raw)
-        # ax_raw.plot(beat)
-        # ax_filtered.plot(filtered)
-        # ax_der.plot(der)
-        # ax_squared.plot(squared)
-        # ax_mwi.plot(mwi)
-        # # ax_peaks.plot(raw)
-        # ax_peaks.plot(removed)
-        # ax_peaks.plot(beat)
-        # ax_peaks.plot(peaks)
-        # # ax_peaks.plot(search_back_peak)
-        
-        # plt.tight_layout()
-        # plt.show()
+            '''..............................Wave Plotter....................................'''
+            # import matplotlib.pyplot as plt
+            # fig, (ax_raw, ax_filtered, ax_der, ax_squared, ax_mwi, ax_peaks) = plt.subplots(6, 1)
+            
+            # ax_raw.plot(raw)
+            # ax_raw.plot(beat)
+            # ax_filtered.plot(filtered)
+            # ax_der.plot(der)
+            # ax_squared.plot(squared)
+            # ax_mwi.plot(mwi)
+            # # ax_peaks.plot(raw)
+            # ax_peaks.plot(removed)
+            # ax_peaks.plot(beat)
+            # ax_peaks.plot(peaks)
+            # # ax_peaks.plot(search_back_peak)
+            
+            # plt.tight_layout()
+            # plt.show()
+            '''..............................Wave Plotter....................................'''
